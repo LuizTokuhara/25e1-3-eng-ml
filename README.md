@@ -157,13 +157,25 @@ Retreino do modelo, ajuste de hiperparâmetros, monitoramento contínuo, ajuste 
 pip install -r requirements.txt
 ```
 
-2 - Inicializar o MLFlow Dashboard:
+2 - Executar as pipelines:
+
+```
+kedro run || kedro run -t {nome_da_pipeline}
+```
+
+3 - Inicializar Jupyter Lab:
+
+```
+kedro jupyter lab
+```
+
+4 - Inicializar o MLFlow Dashboard:
 
 ```
 mlflow server --host 0.0.0.0 --port 5500
 ```
 
-3 - Inicializar o MLFlow Model Server
+5 - Inicializar o MLFlow Model Server
 
 ```
 mlflow models serve -m models:/log_reg_model/{versao_do_modelo} -p 5600
