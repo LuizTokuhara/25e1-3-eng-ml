@@ -1,7 +1,8 @@
 # Engenharia de Machine Learning [25E1_3]
 Instituto Infnet<br>
 Aluno Luiz Tokuhara<br>
-Professor Felipe F. Grael
+Professor Felipe F. Grael<br>
+https://github.com/LuizTokuhara/25e1-3-eng-ml
 
 ## Projeto
 Prever se o arremesso de Kobe Bryant foi convertido em cesta.
