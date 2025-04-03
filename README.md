@@ -79,6 +79,18 @@ Atualização de Modelo:
 * **`Pycaret`** Suporta a re-treino de modelos com novos dados usando ``finalize_model()`` ou ``tune_model()``, simplificando ajustes e otimizações antes de uma atualização.
 
 * **`Streamlit`** Pode criar interfaces para acionar atualizações manuais ou automáticas, exibindo os resultados e permitindo interação com o processo.
+
+* **`Scikit-Learn`** Base para re-treinamento e exportação de novos modelos.
+
+Provisionamento (Deploy):
+
+* **`MLFlow`** Permite armazenar modelos e promover novos para produção, disponibiliza modelos como APIs Rest automaticamente.
+
+* **`Pycaret`** Automatiza o pipeline de machine learning e possui integreção com MLFlow para salvar métricas e modelos.
+
+* **`Streamlit`** Permite testar novos modelos através de interface gráfica antes de um deploy.
+
+* **`Scikit-Learn`** Novos modelos podem ser salvos e carregados rapidamente, suporta exportação para formatos interoperáveis.
 <br><br>
 
 ## Com base no diagrama realizado, aponte os artefatos que serão criados ao longo de um projeto. Para cada artefato, a descrição detalhada de sua composição.
@@ -108,6 +120,15 @@ Atualização de Modelo:
 ## Registros Pipeline Aplicação
 ![image](./data/08_reporting/pipeline-aplicacao-metricas.png)
 ![image](./data/08_reporting/pipeline-aplicacao-artefato.png)
+<br><br>
+
+## Melhor modelo
+O modelo escolhido com base nas métricas foi o de Regressão Logística<br><br>
+LR ROC AUC <br>
+![image](./data/08_reporting/roc-lr.png)<br><br>
+
+DT ROC AUC <br>
+![image](./data/08_reporting/roc-dt.png)
 <br><br>
 
 ## Predição via Streamlit
