@@ -5,8 +5,9 @@ Professor Felipe F. Grael<br>
 https://github.com/LuizTokuhara/25e1-3-eng-ml
 
 ## Projeto
-Prever se um arremesso de Kobe Bryant resultou em cesta com base na sua posição (latitude e longitude), distância até a cesta, tempo restante, período do jogo e se a partida era um playoff.
-
+Prever se um arremesso de Kobe Bryant resultou em cesta com base na sua posição (latitude e longitude), distância até a cesta, tempo restante, período do jogo e se a partida era um playoff.<br>
+[Exploração dos dados](https://github.com/LuizTokuhara/25e1-3-eng-ml/blob/main/notebooks/exploracao.ipynb)
+<br><br>
 
 Tipos de dados.<br>
 * 11 colunas do tipo object (categóricas);<br>
