@@ -1,0 +1,11 @@
+digest: 9fe52262
+name: dataset
+profile: '{"num_rows": 4057, "num_elements": 24342}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "loc_x", "required": true},
+  {"type": "double", "name": "loc_y", "required": true}, {"type": "double", "name":
+  "minutes_remaining", "required": true}, {"type": "double", "name": "period", "required":
+  true}, {"type": "double", "name": "playoffs", "required": true}, {"type": "double",
+  "name": "shot_distance", "required": true}]}'
+source: '{"tags": {"mlflow.user": "luiz", "mlflow.source.name": "/opt/miniconda3/envs/kedro-infnet-env/lib/python3.10/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

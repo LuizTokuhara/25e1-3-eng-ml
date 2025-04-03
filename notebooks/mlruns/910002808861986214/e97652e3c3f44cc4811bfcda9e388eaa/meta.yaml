@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/luiz/Study/eng-ml/kobe-bryant/notebooks/mlruns/910002808861986214/e97652e3c3f44cc4811bfcda9e388eaa/artifacts
+end_time: 1742824408351
+entry_point_name: ''
+experiment_id: '910002808861986214'
+lifecycle_stage: active
+run_id: e97652e3c3f44cc4811bfcda9e388eaa
+run_name: Logistic Regression
+run_uuid: e97652e3c3f44cc4811bfcda9e388eaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742824408112
+status: 3
+tags: []
+user_id: luiz

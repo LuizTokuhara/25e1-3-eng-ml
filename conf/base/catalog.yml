@@ -1,0 +1,39 @@
+download_data_dev:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/dataset_kobe_dev.parquet
+
+download_data_prod:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/dataset_kobe_prod.parquet
+
+filtered_data:
+  type: pandas.ParquetDataset
+  filepath: data/processed/data_filtered.parquet
+
+base_train:
+  type: pandas.ParquetDataset
+  filepath: data/processed/base_train.parquet
+
+base_test:
+  type: pandas.ParquetDataset
+  filepath: data/processed/base_test.parquet
+
+log_reg_model:
+  type: pickle.PickleDataset
+  filepath: data/06_models/log_reg_model.pkl
+
+log_reg_metrics:
+  type: json.JSONDataset
+  filepath: data/08_reporting/log_reg_metrics.json
+
+dt_model:
+  type: pickle.PickleDataset
+  filepath: data/06_models/dt_model.pkl
+
+dt_metrics:
+  type: json.JSONDataset
+  filepath: data/08_reporting/dt_metrics.json
+
+aplicacao_artifact:
+  type: pandas.ParquetDataset
+  filepath: data/processed/kobe_predictions.parquet

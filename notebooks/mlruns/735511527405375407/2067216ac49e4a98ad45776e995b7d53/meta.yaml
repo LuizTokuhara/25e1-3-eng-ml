@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/luiz/Study/eng-ml/kobe-bryant/notebooks/mlruns/735511527405375407/2067216ac49e4a98ad45776e995b7d53/artifacts
+end_time: 1742823293679
+entry_point_name: ''
+experiment_id: '735511527405375407'
+lifecycle_stage: active
+run_id: 2067216ac49e4a98ad45776e995b7d53
+run_name: Naive Bayes
+run_uuid: 2067216ac49e4a98ad45776e995b7d53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742823293653
+status: 3
+tags: []
+user_id: luiz

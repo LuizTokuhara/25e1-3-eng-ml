@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/luiz/Study/eng-ml/kobe-bryant/notebooks/mlruns/735511527405375407/41bfaebf4e27466392e66ddf16f2a2c4/artifacts
+end_time: 1742823293578
+entry_point_name: ''
+experiment_id: '735511527405375407'
+lifecycle_stage: active
+run_id: 41bfaebf4e27466392e66ddf16f2a2c4
+run_name: Linear Discriminant Analysis
+run_uuid: 41bfaebf4e27466392e66ddf16f2a2c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742823293551
+status: 3
+tags: []
+user_id: luiz

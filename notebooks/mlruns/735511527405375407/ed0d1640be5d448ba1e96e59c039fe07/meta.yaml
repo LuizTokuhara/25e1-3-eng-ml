@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/luiz/Study/eng-ml/kobe-bryant/notebooks/mlruns/735511527405375407/ed0d1640be5d448ba1e96e59c039fe07/artifacts
+end_time: 1742823293076
+entry_point_name: ''
+experiment_id: '735511527405375407'
+lifecycle_stage: active
+run_id: ed0d1640be5d448ba1e96e59c039fe07
+run_name: Gradient Boosting Classifier
+run_uuid: ed0d1640be5d448ba1e96e59c039fe07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742823293046
+status: 3
+tags: []
+user_id: luiz

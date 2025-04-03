@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/luiz/Study/eng-ml/kobe-bryant/notebooks/mlruns/735511527405375407/4821a382c8424409913c4e94ead5b036/artifacts
+end_time: 1742823293883
+entry_point_name: ''
+experiment_id: '735511527405375407'
+lifecycle_stage: active
+run_id: 4821a382c8424409913c4e94ead5b036
+run_name: Random Forest Classifier
+run_uuid: 4821a382c8424409913c4e94ead5b036
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742823293853
+status: 3
+tags: []
+user_id: luiz

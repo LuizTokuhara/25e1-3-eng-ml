@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/luiz/Study/eng-ml/kobe-bryant/notebooks/mlruns/735511527405375407/bb88fd9bb8db41b09c3488deb62b2e43/artifacts
+end_time: 1742822829843
+entry_point_name: ''
+experiment_id: '735511527405375407'
+lifecycle_stage: active
+run_id: bb88fd9bb8db41b09c3488deb62b2e43
+run_name: Decision Tree Classifier
+run_uuid: bb88fd9bb8db41b09c3488deb62b2e43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742822829809
+status: 3
+tags: []
+user_id: luiz

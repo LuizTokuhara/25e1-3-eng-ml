@@ -1,0 +1,33 @@
+artifact_path: log_reg_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.16
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.15.1
+model_size_bytes: 1738
+model_uuid: d73a43dffdd14be0ac0caa2a65a0da04
+run_id: 78dae021533a4ed589fb31740315f099
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_payload.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "loc_x", "required": true}, {"type": "long",
+    "name": "loc_y", "required": true}, {"type": "long", "name": "minutes_remaining",
+    "required": true}, {"type": "long", "name": "period", "required": true}, {"type":
+    "long", "name": "playoffs", "required": true}, {"type": "long", "name": "shot_distance",
+    "required": true}]'
+  outputs: '[{"type": "long", "name": "prediction_label", "required": true}]'
+  params: null
+utc_time_created: '2025-03-24 19:51:51.351304'

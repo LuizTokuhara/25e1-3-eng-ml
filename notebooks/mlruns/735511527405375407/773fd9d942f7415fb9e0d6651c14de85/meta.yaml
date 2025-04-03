@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/luiz/Study/eng-ml/kobe-bryant/notebooks/mlruns/735511527405375407/773fd9d942f7415fb9e0d6651c14de85/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '735511527405375407'
+lifecycle_stage: active
+run_id: 773fd9d942f7415fb9e0d6651c14de85
+run_name: Session Initialized 35c0
+run_uuid: 773fd9d942f7415fb9e0d6651c14de85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742823273304
+status: 1
+tags: []
+user_id: luiz
