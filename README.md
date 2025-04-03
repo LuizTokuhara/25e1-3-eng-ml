@@ -5,13 +5,14 @@ Professor Felipe F. Grael<br>
 https://github.com/LuizTokuhara/25e1-3-eng-ml
 
 ## Projeto
-Prever se o arremesso de Kobe Bryant foi convertido em cesta.
+Prever se um arremesso de Kobe Bryant resultou em cesta com base na sua posição (latitude e longitude), distância até a cesta, tempo restante, período do jogo e se a partida era um playoff.
 
 
 Tipos de dados.<br>
-* 11 colunas do tipo object;<br>
-* 17 colunas do tipo int64;<br>
+* 11 colunas do tipo object (categóricas);<br>
+* 11 colunas do tipo int64;<br>
 * 3 colunas do tipo float64;<br>
+* 24271 linhas × 25 colunas;<br>
 * Target - Coluna shot_made_flag<br><br>
 ![image](./data/08_reporting/tipos-colunas.png)
 
@@ -34,14 +35,14 @@ Projeto criado com framework Kedro.
 
 
 * **`Download Datasource`** Pipeline para download dos arquivos parquet;
-* **`Raw data`** Arquivos parquet salvos na pasta data/01_raw;
+* **`Raw data`** Arquivos parquet salvos na pasta [data/01_raw](https://github.com/LuizTokuhara/25e1-3-eng-ml/tree/main/data/01_raw);
 * **`Preparação Dados`** Pipeline para filtragem dos dados (excluir linhas com valores nulos), seleção das features e separação em dois arquivos, treino (80%) e teste (20%). As métricas referentes a separação dos dados serão salvos no MLFlow;
-* **`Treino / Teste`** Arquivos parquet para uso no treinamento dos modelos salvos na pasta data/processed;
+* **`Treino / Teste`** Arquivos parquet para uso no treinamento dos modelos salvos na pasta [data/processed](https://github.com/LuizTokuhara/25e1-3-eng-ml/tree/main/data/processed);
 * **`Treinamento Regressão`** Pipeline de treinamento do modelo de Regressão Logística utilizando PyCaret, métricas do treinamento serão salvas no MLFlow;
 * **`Treinamento Árvore de Decisão`** Pipeline do modelo de Árvore de Decisão utilizando PyCaret, métricas do treinamento serão salvas no MLFlow;
 * **`Melhor Modelo`** Escolha do melhor modelo baseado nas métricas salvas no MLFlow, o modelo será promovido no dashboard do MLFlow;
-* **`Pipeline Aplicação`** Pipeline para inferência do melhor modelo contra a base de dados de produção, as inferências serão salvas em arquivo parquet na pasta data/processed e métricas no MLFlow;
-* **`Artefatos`** Arquivo parquet com os dados da inferência do melhor modelo contra a base de produção (y_true, y_predicted), savo na pasta data/processed.
+* **`Pipeline Aplicação`** Pipeline para inferência do melhor modelo contra a base de dados de produção, as inferências serão salvas em arquivo parquet na pasta [data/processed](https://github.com/LuizTokuhara/25e1-3-eng-ml/tree/main/data/processed) e métricas no MLFlow;
+* **`Artefatos`** Arquivo parquet com os dados da inferência do melhor modelo contra a base de produção (y_true, y_predicted), savo na pasta [data/processed](https://github.com/LuizTokuhara/25e1-3-eng-ml/tree/main/data/processed).
 
 
 ## Como as ferramentas Streamlit, MLFlow, PyCaret e Scikit-Learn auxiliam na construção dos pipelines
