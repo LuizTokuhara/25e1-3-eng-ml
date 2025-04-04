@@ -31,13 +31,18 @@ Posição do arremesso e cestas convertidas<br>
 
 ## Estrutura
 
-Projeto criado com framework Kedro.
+Projeto segue o padrão do framework Kedro.
+* conf/ - Configurações do projeto;
+* data/ - Armazenamento dos dados gerados por etapas;
+* src/ - Código-fonte (Pipelines);
+* notebooks/ - Notebooks Jupyter criados para experimentação;
+<br><br>
 ![image](./data/08_reporting/estrutura.png)
 
 
 * **`Download Datasource`** Pipeline para download dos arquivos parquet;
 * **`Raw data`** Arquivos parquet salvos na pasta [data/01_raw](https://github.com/LuizTokuhara/25e1-3-eng-ml/tree/main/data/01_raw);
-* **`Preparação Dados`** Pipeline para filtragem dos dados (excluir linhas com valores nulos), seleção das features e separação em dois arquivos, treino (80%) e teste (20%). As métricas referentes a separação dos dados serão salvos no MLFlow;
+* **`Preparação Dados`** Pipeline para filtragem dos dados (excluir linhas com valores nulos), seleção das features **`[lat, lon, minutes_remaining, period, playoffs, shot_distance, shot_made_flag]`** e separação em dois arquivos, treino (80%) e teste (20%). As métricas referentes a separação dos dados serão salvos no MLFlow;
 * **`Treino / Teste`** Arquivos parquet para uso no treinamento dos modelos salvos na pasta [data/processed](https://github.com/LuizTokuhara/25e1-3-eng-ml/tree/main/data/processed);
 * **`Treinamento Regressão`** Pipeline de treinamento do modelo de Regressão Logística utilizando PyCaret, métricas do treinamento serão salvas no MLFlow;
 * **`Treinamento Árvore de Decisão`** Pipeline do modelo de Árvore de Decisão utilizando PyCaret, métricas do treinamento serão salvas no MLFlow;
